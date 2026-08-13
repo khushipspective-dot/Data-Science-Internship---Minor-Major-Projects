@@ -1,0 +1,3 @@
+Major-Fraud-Detection/data/raw/creditcard.csv
+Major-Fraud-Detection/data/processed/X_train.csv
+Major-Fraud-Detection/data/processed/X_test.csv
