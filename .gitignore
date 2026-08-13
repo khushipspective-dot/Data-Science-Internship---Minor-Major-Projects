@@ -1,4 +1,78 @@
-Major-Fraud-Detection/data/raw/creditcard.csv
-Major-Fraud-Detection/data/processed/X_train.csv
-Major-Fraud-Detection/data/processed/X_test.csv
-Major-Fraud-Detection/data/processed/X_train_resampled.csv
+
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Python packaging
+# ==============================
+
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ==============================
+# IDE / Editor files
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# Operating System files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Data Science temporary files
+# ==============================
+
+*.tmp
+*.temp
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+
+# ==============================
+# Large local datasets
+# ==============================
+
+# Large local datasets
+
+Major-Fraud-Detection/data/raw/*.csv
+Major-Fraud-Detection/data/raw/*.zip
+
+# Processed/generated datasets
+
+Major-Fraud-Detection/data/processed/*.csv
+git status
